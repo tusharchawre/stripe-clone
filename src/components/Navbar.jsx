@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from './Button'
+import { DropDownMenu } from './DropDownMenu'
 
 function Navbar() {
   
@@ -10,11 +11,7 @@ function Navbar() {
     <div className='w-full max-w-screen-lg mx-auto inset-0 flex items-center h-[4.5rem] justify-between'>
         <div className='flex gap-11 text-white font-medium text-sm items-center'>
         <img src="/stripe.svg" alt="" />
-        <p>Products</p>
-        <p>Solutions</p>
-        <p>Developers</p>
-        <p>Resources</p>
-        <p>Pricing</p>
+        <DropDownMenu />
         </div>
 
         <div className='flex gap-4 '>
