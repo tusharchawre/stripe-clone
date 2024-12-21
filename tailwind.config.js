@@ -7,7 +7,7 @@ export default {
   theme: {
     fontFamily: {
       sohne : ["Sohne","sans-serif"],
-      sohne2 : ["Sohne2","sans-serif"]
+      sohneLight : ["Sohne-light","sans-serif"]
     }
   },
   plugins: [],

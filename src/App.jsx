@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import Navbar from './components/Navbar'
 import { Hero } from './components/Hero'
+import { LogoSlabs } from './components/LogoSlabs'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <div>
        <Navbar />
        <Hero />
+       <LogoSlabs />
     </div>
     </>
   )
