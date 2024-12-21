@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Button } from '../Button'
-import { motion } from 'motion/react';
+import { AnimatePresence, motion } from 'motion/react';
 import useMeasure from 'react-use-measure';
 
 export function Solutions({ref}) {
+  const [direction, setDirection] = useState(1)
 
   const features = [
     {
@@ -58,13 +59,17 @@ export function Solutions({ref}) {
 
 
 
+
+
   return (
+    <AnimatePresence>
     <div ref={ref} className="w-[50vw] h-fit  rounded-xl mx-auto px-4 py-6">
         <div className='bg-white rounded-xl p-4'>
     SOLUTIONS
     <motion.div 
-    initial={{opacity: 0, x:-40}}
-    animate={{opacity: 1, x:0}}
+    initial={{opacity: 0}}
+    animate={{opacity: 1}}
+    exit={{opacity: 0}}
     transition={{duration: 0.3 , type: "string", bounce: 0}}
     className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-sm">
       {features.map((feature, index) => (
@@ -88,6 +93,7 @@ export function Solutions({ref}) {
     </motion.div>
     </div>
   </div>
+  </AnimatePresence>
   )
 }
 

@@ -8,7 +8,7 @@ function Navbar() {
 
 
   return (
-    <div className='w-full max-w-screen-lg mx-auto inset-0 flex items-center h-[4.5rem] justify-between'>
+    <div className='w-full max-w-[1048px] mx-auto inset-0 flex items-center h-[4.5rem] justify-between'>
         <div className='flex gap-11 text-white font-medium text-sm items-center'>
         <img src="/stripe.svg" alt="" />
         <DropDownMenu />

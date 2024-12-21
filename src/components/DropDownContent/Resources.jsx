@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from '../Button'
+import { AnimatePresence, motion } from 'motion/react';
 
 export function Resources({ref}) {
 
@@ -82,11 +83,20 @@ export function Resources({ref}) {
 
 
   return (
+    <AnimatePresence>
     <div ref={ref} className="w-[50vw] h-fit  rounded-xl mx-auto px-4 py-6">
        
-        <div className='bg-white rounded-xl p-4'>
+        <div 
+       
+        
+        className='bg-white rounded-xl p-4'>
     RESOURCES
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-sm">
+    <motion.div 
+     initial={{opacity: 0}}
+     animate={{opacity: 1}}
+     exit={{opacity: 0}}
+     transition={{duration: 0.3 , type: "string", bounce: 0}}
+    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-sm">
       {features.map((feature, index) => (
         <div 
           key={index}
@@ -105,9 +115,10 @@ export function Resources({ref}) {
           </div>
         </div>
       ))}
-    </div>
+    </motion.div>
     </div>
   </div>
+  </AnimatePresence>
   )
 }
 
