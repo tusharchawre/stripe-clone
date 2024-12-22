@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    animation: {
+      'spin-slow': 'spin 5s linear infinite',
+    },
     fontFamily: {
       sohne : ["Sohne","sans-serif"],
       sohneLight : ["Sohne-light","sans-serif"]

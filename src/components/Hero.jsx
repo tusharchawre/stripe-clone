@@ -15,8 +15,8 @@ export function Hero() {
         Preview
       </button>
       </div>
-      <div className=' relative max-w-[50%]'>
-      <p className='font-sohne text-[5rem] mix-blend-soft-light leading-none tracking-tighter text-black'>
+      <div className=' relative md:max-w-[60%] max-w-[80%]'>
+      <p className='top-0 font-sohne text-[5rem] mix-blend-soft-light leading-none tracking-tighter text-black'>
         Financial <br />
         infrastructure <br />
         to grow your <br />
@@ -30,7 +30,7 @@ export function Hero() {
       </p>
       </div>
 
-      <div className='max-w-[45%] my-8 text-[18px] leading-[1.5] font-sohneLight font-extrabold'>
+      <div className='md:max-w-[45%] my-8 text-[18px] leading-[1.5] font-sohneLight font-extrabold'>
       Join the millions of companies of all sizes that use Stripe to accept payments online and in person, embed financial services, power custom revenue models, and build a more profitable business.
       </div>
       <Button className="bg-blue-950 text-white">
