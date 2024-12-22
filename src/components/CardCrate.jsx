@@ -16,6 +16,7 @@ function CardCrate() {
       <div className='mt-44'>
         <Card />
         <Card />
+        <Card />
       </div>
       <div>
         <Card />
