@@ -48,7 +48,7 @@ function CardCrate() {
         heading="Sell to businesses"
         body="Launch a B2B business and collect one-time or recurring payments from customers."
         logoSrc="/logos/invoice.svg"
-        logotext="Invoicing"
+        logotext="smash"
         />
 
       </div>
