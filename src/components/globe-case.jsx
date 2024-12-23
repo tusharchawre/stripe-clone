@@ -25,9 +25,9 @@ export function GlobeCase() {
 
 
   return (
-    <div className='w-full bg-[#F6F9FC] h-[110vh] overflow-hidden pt-20 relative'>
+    <div className='w-full bg-[#F6F9FC] h-[850px] overflow-hidden pt-20 relative'>
         <div className='w-full bg-[#0A2540] h-[1000px] -skew-y-6 absolute z-0' />
-            <div className='max-w-[1048px] w-full mx-auto pt-44 relative z-20'>
+            <div className='max-w-[1048px] w-full mx-auto pt-44 relative z-20 h-full'>
             <p className='font-bold text-lg text-[#57D4F9] font-sohne'>Global Scale</p>
             <p className='py-8 text-4xl font-semibold text-white w-[30%] leading-10'>The backbone for global commerce
             </p>

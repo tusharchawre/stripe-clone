@@ -14,7 +14,7 @@ function CardCrate2() {
 
         </p>
       </div>
-    <div className='max-w-[1048px] w-full mx-auto flex gap-4 px-2 mt-4 '>
+    <div className='max-w-[1048px] w-full mx-auto flex gap-4 mt-4'>
      <Card
       className=""
         imgSrc="/CardImages/Card1.webp"
