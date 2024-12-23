@@ -4,7 +4,7 @@ import { Card } from './Card'
 
 function CardCrate() {
   return (
-    <div className='w-full h-fit bg-[#F6F9FC]'>
+    <div className='w-full h-fit bg-[#F6F9FC] pb-10'>
       <div className='max-w-[1048px] w-full mx-auto pt-24'>
         <p className='font-bold text-lg text-[#6459F6] font-sohne'>Built for growth</p>
         <p className='py-8 text-4xl font-semibold'>Take your startup farther, faster
@@ -13,7 +13,7 @@ function CardCrate() {
         </p>
       </div>
     <div className='max-w-[1048px] w-full mx-auto flex gap-12 px-8 mt-8'>
-      <div className='mt-44'>
+      <div className='w-1/2 mt-44'>
         <Card
         imgSrc="/CardImages/Card1.webp"
         blobSrc="/CardImages/blobs/blob-orange.svg"
@@ -23,8 +23,8 @@ function CardCrate() {
         logotext="Atlas"
         />
         <Card
-        imgSrc="/CardImages/Card1.webp"
-        blobSrc="/CardImages/blobs/blob-orange.svg"
+        imgSrc="/CardImages/Card2.png"
+        blobSrc="/CardImages/blobs/blob-purple-blue.png"
         heading="Sell to consumers"
         body="Launch a B2C business with a prebuilt payment page that’s optimized for conversion."
         logoSrc="/logos/checkout.svg"
@@ -32,10 +32,10 @@ function CardCrate() {
         />
 
       </div>
-      <div>
+      <div className='w-1/2'>
       <Card
         imgSrc="/CardImages/Card1.webp"
-        blobSrc="/CardImages/blobs/blob-orange.svg"
+        blobSrc="/CardImages/blobs/blob-purple-blue.png"
         heading="Validate your idea"
         body="Test your product idea by launching payments with little to no code."
         logoSrc="/logos/payment-links.svg"
@@ -43,8 +43,8 @@ function CardCrate() {
         />
 
 <Card
-        imgSrc="/CardImages/Card1.webp"
-        blobSrc="/CardImages/blobs/blob-orange.svg"
+        imgSrc="/CardImages/Card3.png"
+        blobSrc="/CardImages/blobs/blob-green-yellow.png"
         heading="Sell to businesses"
         body="Launch a B2B business and collect one-time or recurring payments from customers."
         logoSrc="/logos/invoice.svg"
