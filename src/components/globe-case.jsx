@@ -82,7 +82,7 @@ export function GlobeCase() {
 
         </div>
 
-        <div className='absolute hidden lg:block z-10 bottom-0 left-[55vw] scale-[1.4] rotate-12'>
+        <div className='absolute hidden lg:block z-10 bottom-0 left-[45vw] scale-[1.4] rotate-12'>
         <Globe
         ref={globeRef}
         globeImageUrl="/globe.jpeg"

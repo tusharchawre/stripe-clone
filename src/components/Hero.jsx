@@ -16,13 +16,13 @@ export function Hero() {
       </button>
       </div>
       <div className=' relative md:max-w-[60%] '>
-      <p className='top-0 font-sohne text-[5rem] mix-blend-soft-light leading-none tracking-tighter text-black'>
+      <p className='top-0 font-sohne text-[4rem] md:text-[5rem] mix-blend-soft-light leading-none tracking-tighter text-black'>
         Financial <br />
         infrastructure <br />
         to grow your <br />
         revenue
       </p>
-      <p className='absolute top-0 opacity-40 font-sohne text-[5rem] leading-none tracking-tighter text-black'>
+      <p className='absolute top-0 opacity-40 font-sohne text-[4rem] md:text-[5rem] leading-none tracking-tighter text-black'>
         Financial <br />
         infrastructure <br />
         to grow your <br />
