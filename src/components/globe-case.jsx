@@ -28,13 +28,13 @@ export function GlobeCase() {
     <div className='w-full bg-[#F6F9FC] h-[850px] overflow-hidden pt-20 relative'>
         <div className='w-full bg-[#0A2540] h-[1000px] -skew-y-6 absolute z-0' />
             <div className='max-w-[1048px] w-full mx-auto pt-44 relative z-20 h-full'>
-            <p className='font-bold text-lg text-[#57D4F9] font-sohne'>Global Scale</p>
-            <p className='py-8 text-4xl font-semibold text-white w-[30%] leading-10'>The backbone for global commerce
+            <p className='pl-4 font-bold text-lg text-[#57D4F9] font-sohne'>Global Scale</p>
+            <p className='py-8 pl-4 text-4xl font-semibold text-white md:w-[30%] leading-10'>The backbone for global commerce
             </p>
-            <p className='w-[40%] text-lg text-slate-400'>
+            <p className='pl-4 md:w-[40%] text-lg text-slate-400'>
                 Stripe makes moving money as easy and programmable as moving data. Our teams are based in offices around the world and we process hundreds of billions of dollars each year for ambitious businesses of all sizes.
         </p>
-        <div className='flex w-full justify-around mt-24 gap-8'>
+        <div className='flex w-full justify-around mt-24 gap-4 md:gap-8'>
             <div className='w-[25%]'>
             <p className='my-4 text-2xl font-semibold text-white w-[30%] border-l-2 border-[#57D4F9] px-4'>
                 500M+
@@ -82,7 +82,7 @@ export function GlobeCase() {
 
         </div>
 
-        <div className='absolute z-10 bottom-0 left-[40vw] scale-[1.4] rotate-12'>
+        <div className='absolute hidden lg:block z-10 bottom-0 left-[55vw] scale-[1.4] rotate-12'>
         <Globe
         ref={globeRef}
         globeImageUrl="/globe.jpeg"
